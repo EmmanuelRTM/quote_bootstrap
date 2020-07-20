@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Bootstrap before all the other-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <!--<link rel="stylesheet" href="style.css">-->
+        <!--SEO-->
+        <meta name="description" content="Cotiza hoy, y comienza tu aventura!">
+        <meta property="og:image" content="https://www.hibridosyelectricos.com/media/hibridos/images/2019/04/26/2019042601362290284.jpg?width=1200&enable=upscale" >
+        <link rel="canonical" href="Carcool.com">
+        <title>CarCool</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light  mt-3 " >
+        <a class="navbar-brand" href="#"> <img src="img/pngocean.com (10).png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"> CarCool</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cotizador</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" >
+                Sobre nosotros
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="home jumbotron jumbotron-fluid ">
+        <div class="container">
+          <h1 class="display-4">¡Te damos la Bienvenida! </h1>
+          <p class="lead">Somos el cotizador N.1 de autos en México, te ofrecemos a partir de tu presupuesto las últimas tendencias, y sobre todo, los mejores modelos.</p>
+        </div>
+      </div>
+    <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <section class="formulario ">
+            <h1 style="margin-block-end: 30px; ">Cotizador</h1>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Selecciona Marca</label>
+                <select class="form-control" id="Marca">
+                    <option>Chevrolet</option>
+                    <option>Ford</option>
+                    <option>Nissan</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Selecciona Modelo</label>
+                <select class="form-control" id="Modelo">
+                    <option>2019</option>
+                    <option>2020</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="inputAddress">Ingresa tu presupuesto</label>
+                <input type="text" class="form-control" id="Budget" placeholder="Desde 15,000 hasta 150,000">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Selecciona Caja de Velocidades</label>
+                <select class="form-control" id="Caja">
+                    <option>Manual</option>
+                    <option>Automático</option>
+                </select>
+            </div>
+        <!-- <button type="button" id="button-addon1 " class="btn btn-primary mb-2">Cotizar</button>-->
+            <button class="btn btn-outline-primary" type="button" id="button-addon1">Cotizar</button>
+        </section>
+    </div>
+    <!--Mensaje de alerta-->
+<div class="modal" tabindex="-1" role="dialog" id="modal-login-success">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title"> Estimado usuario</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <p id="mi">Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+    </div>
+</div>
+    <div class="container mt-5">
+        <div class="cartas row d-flex justify-content-center" id="row">
+        </div>
+    </div>
+    </div>
+    <div class="nosotros jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Sobre nosotros</h1>
+          <p class="lead">Nuestro objetivo es entusiamar a nuestros clientes en México con automóviles innovadores, confiables y geniales, así como con servicios de excelencia, buscando siempre la satisfacción de nuestros clientes.</p>
+        </div>
+      </div>
+<!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+    <!-- Footer Elements -->
+    <div class="container d-flex justify-content-center">
+      <!-- Grid row-->
+      <div class="row">
+        <!-- Grid column -->
+        <div class="d-flex justify-content-center">
+          <div class="mb-3 ">
+            <!-- Facebook -->
+            <a class=" ">
+                <img class="fab1" src="img/pngocean.com (11).png">
+            </a>
+            <!-- Twitter -->
+            <a class="">
+              <img class="fab2" src="img/pngocean.com (12).png">
+            </a>
+            <!-- Google +-->
+            <a class="">
+                <img class="fab3" src="img/pngocean.com (13).png">
+            </a>
+            <!--Linkedin -->
+            <a class="">
+                <img class="fab4" src="img/pngocean.com (14).png">
+            </a>
+          </div>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row-->
+    </div>
+    <!-- Footer Elements -->
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> CarCool.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+    <!-- Footer -->
+    <!--boostrapjavascript falta base de datos-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="bd.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

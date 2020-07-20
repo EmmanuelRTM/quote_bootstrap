@@ -1,0 +1,46 @@
+.navbar{
+    background-color: transparent;
+}
+.container{
+    width: 100%;
+}
+.home{
+    padding-block-end: 0;
+    height: 500px;
+    background-image: url('img/cutout_vehiculos-pasajeros.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    background-color: transparent;
+}
+.fab1{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.fab2{
+    width: 48px;
+    height: auto;
+    cursor: pointer;
+}
+.fab3{
+    width: auto;
+    height: 52px;
+    cursor: pointer;
+}
+.fab4{
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+.card{
+    padding: 8px 15px;
+}
+.nosotros{
+    height: 700px;
+    background-color: transparent;
+    background-image: url('img/pngegg.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: 30%;
+}
